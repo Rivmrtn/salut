@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+
+        <style>
+            body{background-color: rgb(0, 255, 149);}
+            #conteneur{background-color: rgb(173, 73, 255); display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: 100px;}
+            #conteneur div{background:linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);border: dotted aquamarine 2px;}
+            /* #box1{grid-column-start: 1; grid-column-end: 4;
+                grid-row-start: 1;grid-row-end: 3;}
+
+            #box2{grid-column-start: 1; grid-column-end: 2;
+                grid-row-start: 3;grid-row-end: 5;}*/
+
+            /* #box1{ grid-column: 1/span; grid-row: 1/span;}    
+            #box2{ grid-column: 1/span; grid-row: 3/span;}   */
+
+            #box1{ grid-area: 1/1/3/4; text-align: center;}    
+            #box2{ grid-area: 3/1/5/1;}
+        </style>
+
+        <body>
+            <div id="conteneur">
+                <div id="box1">один</div>
+                <div>два</div>
+                <div>три</div>
+                 <div>четыре</div>
+                <div>пять</div>
+                <div><img src="./images/ringo.png"></div>
+                <div id="box2">Ричард Старки, более известный под своим сценическим псевдонимом Ринго Старр, — британский барабанщик, певец, автор песен и актёр, родившийся 7 июля 1940 года в Ливерпуле.Самый старший участник группы «Битлз», барабанщиком которой он был с 1962 года до их разделения в 1970 году. Некоторые музыканты, включая трех других «Битлз», а также публика считают его одним из лучших барабанщиков в истории группы. камень. Превосходное сохранение темпа, а также то, как он смог изобрести уникальный стиль барабанной дроби, который служил все более сложной музыке группы, создали ему репутацию, хотя его игру часто недооценивали из-за очевидного отсутствия в ней четкости. техничность.</div>
+               
+             </div>
+            <div id="img">
+                <img src="./images/BITLZ.png" alt="" width="400">
+            </div>
+
+        </body>
+    </head>
+</html>
